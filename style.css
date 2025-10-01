@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-image: url(./images/vecteezy_cyber-network-protection-future-technology-background_.jpg);
+   background-size: cover;
+}
+
+main{
+    width: 100%;
+    /* height: 90vh; */
+ 
+    display: flex;
+    justify-content: center;
+}
+.divresume{
+    width: 90%;
+    /* height: 40vh; */
+    background-color: rgba(0, 0, 0, 0.432);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.divphoto{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    border-radius: 50%;
+    background-image: url(./images/me.jpg);
+    background-size: cover;
+  
+}
+.resume{
+    width: 700px;
+    /* height: 700px; */
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+ 
+  
+}
+.resume2{
+    width: 90%;
+    height: 500px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+   
+}
+.portfolio{
+    width: 100%;
+    /* height: 50vh; */
+   /* background-image: url(./images/rrr.jpg);
+   background-size: cover; */
+    display: flex;
+    justify-content: center;
+}
+.treediv{
+    width: 90%;
+    /* height: 40vh; */
+    background-color: rgba(14, 19, 14, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  
+
+}
+.portfolios{
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    /* height: 200px; */
+    /* background-color: aquamarine; */
+}
+.divimg{
+    width: 250px;
+    height: 100px;
+
+}
+.divimg:hover{
+    border: 4px solid white;
+    transition: 0.5s;
+   
+}
+.divimg img{
+    width: 100%;
+    height: 100%;
+}
+.divdescript{
+    width: 250px;
+    height: 25px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divdescript a {
+    color: white;
+    text-decoration: none;
+}
+.divdescript:hover{
+   
+    transition: 1s;
+    font-weight: bold;
+    font-size: 20px;}
+
+.programleng{
+    width: 250px;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.programleng span{
+    color: aliceblue;
+}
+.divtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    margin: 15px;
+}
+.divecucatijon{
+    width: 90%;
+    height: 400px;
+    background-color: blue;
+}
